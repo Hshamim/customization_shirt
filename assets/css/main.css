@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800');
+@import url("https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800");
 
 /* Base CSS */
 .alignleft {
@@ -76,11 +76,10 @@ a:hover {
 
 html,
 body {
-  font-family: 'Khula', sans-serif;
+  font-family: "Khula", sans-serif;
   font-size: 15px;
   color: #4c4c4d;
   height: 100%;
-
 }
 
 @keyframes alltuchtopdown {
@@ -399,7 +398,7 @@ body {
 
 .bk-product-box .bk-single-product .bk-single-pr-inner:after {
   background: #2f97f6;
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -589,7 +588,7 @@ Testimonial CSS
   margin-bottom: 35px;
 }
 
-.getdiscound .email-subscription-form input[type='email'] {
+.getdiscound .email-subscription-form input[type="email"] {
   width: 35%;
   background: #fff;
   margin-right: -4px;
@@ -599,7 +598,7 @@ Testimonial CSS
   padding: 10px;
 }
 
-.getdiscound .email-subscription-form input[type='submit'] {
+.getdiscound .email-subscription-form input[type="submit"] {
   width: 8%;
   padding: 5px;
 }
@@ -630,7 +629,7 @@ Testimonial CSS
   top: 0;
   width: 100%;
   height: 100%;
-  content: '';
+  content: "";
   z-index: -1;
   background-color: #073b4c;
   opacity: 0.6;
@@ -641,7 +640,7 @@ Testimonial CSS
   margin-bottom: 25px;
 }
 
-.contact-us-v1-form input[type='text'] {
+.contact-us-v1-form input[type="text"] {
   width: 100%;
   height: 55px;
   padding: 0 20px;
@@ -772,7 +771,7 @@ Testimonial CSS
 
 .feature-img-box .feature-content .single-feature-content:after {
   background: #fff;
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -814,13 +813,13 @@ Testimonial CSS
   padding: 35px;
 }
 
-.promo-contain .promo-left .email-promo form input[type='email'] {
+.promo-contain .promo-left .email-promo form input[type="email"] {
   padding: 10px;
   width: 40%;
   border: none;
 }
 
-.promo-contain .promo-left .email-promo form input[type='submit'] {
+.promo-contain .promo-left .email-promo form input[type="submit"] {
   padding: 10px 10px;
   margin-left: -4px;
   border: none;
@@ -894,20 +893,12 @@ Testimonial CSS
   position: relative;
 }
 
-
-
 .customization-box {
   height: 520px;
   margin: 20px 30px;
   padding-bottom: 60px;
   overflow: auto;
-
-
-
-
 }
-
-
 
 /* .customization-box:hover {
   overflow: auto;
@@ -924,18 +915,14 @@ Testimonial CSS
 }
 
 .single-item-box {
-
   width: 250px;
   float: left;
   display: block;
-  margin: 10px 25px 15px 25px;
+  margin: 10px 0px 15px 0px;
   text-align: center;
   box-shadow: 0 0 2px #ddd;
-  transition: .3s;
+  transition: 0.3s;
   height: auto;
-
-
-
 }
 
 .single-item-box:hover {
@@ -1024,23 +1011,18 @@ Testimonial CSS
   width: 100%;
 } */
 
-.box input[type='radio'] {
-  display: none;
-
-}
-
-input[type='checkbox'],
-input[type='radio'] {
+.box input[type="radio"] {
   display: none;
 }
 
-#app input[type='radio']:checked+.box1 {
+input[type="checkbox"],
+input[type="radio"] {
+  display: none;
+}
+
+#app input[type="radio"]:checked + .box1 {
   outline: 2px solid blue;
-  ;
-
 }
-
-
 
 .cDisplay {
   opacity: 0;
@@ -1051,14 +1033,11 @@ input[type='radio'] {
   opacity: 1;
 }
 
-
-
 .modelHead {
   z-index: 10;
 }
 
 .modelscollar {
-
   z-index: 10;
 }
 
@@ -1068,10 +1047,7 @@ input[type='radio'] {
 
 .collarsbutton {
   z-index: 12;
-
 }
-
-
 
 .collar {
   z-index: 11;
@@ -1101,25 +1077,19 @@ input[type='radio'] {
   overflow: hidden;
   position: relative;
   padding: 20px;
-
 }
 
 #owlNext {
-
   float: right;
   margin-top: 50px;
-
-
 }
 
 #owlPrev,
 #owlSubmit,
 #owlUpdate,
 #updateC {
-
   margin-top: 50px;
 }
-
 
 #owlSubmit,
 #owlUpdate,
@@ -1133,7 +1103,6 @@ input[type='radio'] {
 }
 
 #myCarousel .owlBtn {
-
   position: absolute;
 
   transform: translateY(-50%);
@@ -1141,14 +1110,9 @@ input[type='radio'] {
 }
 
 #myCarousel .owlPrev {
-
   right: 0;
   display: flex;
-
 }
-
-
-
 
 #myCarousel .owlNext {
   left: 0;
@@ -1166,7 +1130,6 @@ input[type='radio'] {
 .model-preview-img {
   cursor: pointer;
   height: 100%;
-
 }
 
 .Fabric-model-img {
@@ -1179,7 +1142,6 @@ input[type='radio'] {
 }
 
 .customization-slide .owl-nav button.owl-prev {
-
   background: #088de1;
   color: #fff;
   padding: 10px 18px 5px !important;
@@ -1238,7 +1200,7 @@ input[type='radio'] {
   width: 0;
   height: 0;
   background: #ddd;
-  content: '';
+  content: "";
   position: absolute;
   left: 40px;
   top: 15px;

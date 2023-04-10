@@ -106,6 +106,15 @@ var Owl = {
                 }
               })
             })
+            $(function () {
+              $('.owlPrev').click(function () {
+                
+                  $('#owlSubmit').hide()
+                  $('#owlUpdate').hide()
+                  $('.owlNext').show()
+                
+              })
+            })
           }
           else if (document.getElementById('sv1').checked) {
             $(
@@ -267,37 +276,17 @@ var Owl = {
         $('.owlUpdate').hide()
       })
     })
-
-    // if (document.getElementById('frontPreview').checked) {
-    //   $('.backCarousel').hide().removeClass('activeC')
-    //   $('.frontCarousel').show().addClass('activeC')
-    // } else if (document.getElementById('backPreview').checked) {
-    //   $('.frontCarousel').hide().removeClass('activeC')
-    //   $('.backCarousel').show().addClass('activeC')
-    // }
+ 
   },
 }
-
-//
 
 //owl
 
 $(document).ready(function () {
   Owl.init()
 })
-// var modal = document.getElementById('Mymodal');
 
 
-window.onclick = function (event) {
-  $('#myModal').modal('hide')
-
-}
-$('#myModal').on('hidden.bs.modal', function (e) {
-  window.onclick = function (event) {
-    $('#myModal').modal('hide')
-
-  }
-})
 
 //default check
 
